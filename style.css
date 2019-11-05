@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+}
 #main-div{
     display: column;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 #navigation-menu{
@@ -80,6 +84,7 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-size: 14px;
 }
 
 #links{
@@ -95,10 +100,11 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-size: 14px;
 }
 
 #main-search-box{
-    height: 600px;
+    height: 590px;
     background-image: url(/pictures/daniel-mirlea-fcPTjUQa7hY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
