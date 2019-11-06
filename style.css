@@ -38,11 +38,11 @@ body{
 #top-search-bar{
     border-radius:25px;
     border: none;
-    height: 35px;
+    height: 2vw;
     width: 55vw;
-    margin-top: 10px;
+    margin-top: 1vw;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 0.8vw;
     background-color: #EEEEEE;
     text-decoration: none;
     text-indent: 2.5em;
@@ -81,6 +81,15 @@ body{
     margin-left: 20px;
 }
 
+#green-button:hover{
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(65, 148, 100);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
 #submit-photo{
     border: 1px solid lightgrey;
     padding: 7px;
@@ -101,6 +110,8 @@ body{
 
 #editorial{
     display: flex;
+    padding-right: 0.8vw;
+    padding-left: 0.8vw;
 }
 
 #editorial a{
@@ -113,6 +124,7 @@ body{
 }
 
 #links{
+    margin-left: 0.8vw;
     display: flex;
     overflow-y: auto;
     overflow-x: hidden;
@@ -122,6 +134,15 @@ body{
 #links a{
     display: inline-block;
     color: grey;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#links a:hover{
+    display: inline-block;
+    color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -143,7 +164,7 @@ body{
 
 #magnifying-glass-icon{
     width: 15px;
-    margin-top: 20px;
+    margin-top: 31px;
     margin-left: 15px;
     position: absolute;
     filter: opacity(50%);
@@ -219,6 +240,10 @@ body{
     padding: 10px;
     width: 22vw;
     align-items: center;
+}
+
+.picture:hover{
+    filter: brightness(80%);
 }
 
 .pictures-layout {
