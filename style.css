@@ -152,7 +152,6 @@ body{
 #main-search-box{
     height: 31vw;
     background-image: url(/pictures/daniel-mirlea-fcPTjUQa7hY-unsplash.jpg);
-    filter:brightness(80%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
