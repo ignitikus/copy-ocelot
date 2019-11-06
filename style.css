@@ -163,8 +163,8 @@ body{
 }
 
 #magnifying-glass-icon{
-    width: 15px;
-    margin-top: 31px;
+    width: 0.7vw;
+    margin-top: 1.6vw;
     margin-left: 15px;
     position: absolute;
     filter: opacity(50%);
